@@ -3,7 +3,7 @@ body {
     margin: auto;
     margin-bottom: 50px;
     margin-top: 50px;
-    background-image: url(/cover.jpg);
+    background-image: url(cover.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
