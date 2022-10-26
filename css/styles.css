@@ -43,3 +43,43 @@ hr {
     border: 2px solid rgb(156, 156, 156);
     border-radius: 3px;
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .contents {
+        max-width: 95%;
+        margin: auto;
+    }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .contents {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .contents {
+        max-width: 85%;
+        margin: auto;
+    }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    .contents {
+        max-width: 80%;
+        margin: auto;
+    }
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    .contents {
+        max-width: 75%;
+        margin: auto;
+    }
+}
