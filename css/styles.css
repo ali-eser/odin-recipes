@@ -16,6 +16,7 @@ body {
 
 .contents {
     backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
     padding: 20px;
     border-radius: 32px;
     text-shadow: 1px 1px 1px rgb(37, 37, 37);
