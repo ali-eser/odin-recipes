@@ -1,8 +1,8 @@
 body {
-    max-width: 650px;
+    max-width: 40%;
     margin: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 2%;
+    margin-top: 2%;
     background-image: url(/odin-recipes/cover.jpg);
     background-size: cover;
     background-position: center;
@@ -10,16 +10,21 @@ body {
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
-    color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(230, 230, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
 
 .contents {
-    backdrop-filter: blur(100px);
-    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px) brightness(90%);
+    -webkit-backdrop-filter: blur(100px) brightness(90%);
     padding: 20px;
-    border-radius: 32px;
-    text-shadow: 1px 1px 1px rgb(37, 37, 37);
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px rgb(26, 26, 26);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
 }
 
 a {
@@ -31,5 +36,10 @@ a:visited {
 }
 
 a:hover {
-    color: aquamarine;
+    color: rgb(225, 127, 255);
+}
+
+hr {
+    border: 2px solid rgb(156, 156, 156);
+    border-radius: 3px;
 }
