@@ -26,6 +26,10 @@ img {
     border-radius: 20px;
 }
 
+.dish-name {
+    list-style: none;
+}
+
 a {
     color: whitesmoke;
 }
